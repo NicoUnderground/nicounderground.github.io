@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>InternetNZ - Digital divides and e-gov</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section data-background-image="imagelib/background1.png">
+						<h1> Digital Divides </h1>
+						<img data-src="./imagelib/InternetNZlogo transparent.png" class="plain">
+				</section>
+
+				<section id="fragments" data-background-image="./imagelib/background1.png">
+
+						<h2>The one thing</h2>
+						<ul>
+							<li class="fragment">E-government can only move as fast as the least digitally included</li>
+						</ul>
+				</section>
+				<section id="fragments" data-background-image="imagelib/NewZealand.png">
+
+
+				</section>
+
+				<section id="fragments" data-background-image="imagelib/NewZealand.png">
+
+						<h2>What we set out to achieve</h2>
+						<p class="fragment">
+						We wanted to render digital divides in a more accessible way, and to understand how digital inclusion and social wellbeing indicators related to each other.
+						</p>
+						<p class="fragment">
+						We recieved funding from the Data Futures Partnership to develop this project as an example of how data can be used to tell a story about New Zealanders
+						</p>
+				</section>
+
+				<section id="fragments" data-background-image="./imagelib/background1.png">
+
+						<h2>Why a Digital Divide Map</h2>
+						<ul>
+							<li>Technical access is getting solved</li>
+
+							<li>In the 2020s access will not equal infrastructure</li>
+
+							<li>Affordability & skill are the next access issues</li>
+						</ul>
+
+				</section>
+
+				<section id="fragments" data-background-image="./imagelib/background1.png">
+
+						<h2>How the map is constructed</h2>
+						<p>A digital inclusion indicator which is made up of:</p>
+
+						<ul>
+							<li>Broadband map (ex satellite)</li>
+
+							<li>Census data (whether household has Internet)</li>
+
+							<li>OECD's PIAAC technology skills dataset</li>
+						</ul>
+			
+						
+							<p>And a social well being indicator, the University of Otago’s Social Deprivation Index </p>
+						
+
+				</section>
+				<section id="fragments" data-background-image="./imagelib/background1.png">
+					<h2> What the colours represent </h2>
+
+<img data-src="imagelib/dividemap.PNG" class="plain">
+
+<p><b>Dark = good</b><br>
+
+<b>Light = bad</b><br></p>
+				
+
+
+				</section>
+			
+
+				<section id="fragments" data-background-image="./imagelib/Riccarton1.png">
+
+
+				</section>
+
+				<section id="fragments" data-background-image="./imagelib/Riccarton2.png">
+
+
+				</section>
+				
+				
+				</section>
+
+				<section id="fragments" data-background-image="./imagelib/aranui.png">
+
+
+				</section>
+
+				<section id="fragments" data-background-image="./imagelib/Newtown.png">
+
+
+				</section>
+
+				
+				<section id="fragments" data-background-image="./imagelib/background1.png">
+<h2> You can explore the state of digital inclusion in your own regions at <a href="https://digitaldivide.nz">digitaldivide.nz</a></h2>
+				</section>
+
+				<section id="fragments" data-background-image="./imagelib/background1.png">
+<h2> What does InternetNZ want to achieve with the digital divide map in 2018? </h2>
+					</section>
+
+<section id="fragments" data-background-image="./imagelib/background1.png">
+<h2> Tell real stories about our nation, and how we experience digital divides in our communities </h2>
+</section>
+
+<section id="fragments" data-background-image="./imagelib/background1.png">
+<h2> Help grant funders understand the nature of the regions, to provide better funding outcomes </h2>
+</section>
+
+<section id="fragments" data-background-image="./imagelib/background1.png">
+<h2> See changes over time, so we know what initiatives are working where, and find opportunities to scale </h2>
+</section>
+
+<section id="fragments" data-background-image="./imagelib/background1.png">
+<h2> Inform digital divide interventions across New Zealand </h2>
+</section>
+			
+<section id="fragments" data-background-image="./imagelib/background1.png">
+<h2> What do we need to improve? </h2>
+</section>
+			
+<section id="fragments" data-background-image="./imagelib/background1.png">
+<h2> Better data to power the map </h2>
+</section>
+			
+<section id="fragments" data-background-image="./imagelib/background1.png">
+<h2>Open sourcing the project to get others involved</h2>
+</section>
+			
+<section id="fragments" data-background-image="./imagelib/background1.png">
+<h2> Visible representations of community projects and efforts</h2>
+</section>
+
+<section id="fragments" data-background-image="./imagelib/background1.png">
+<h1> So what do you think? </h1>
+</section>
+
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
